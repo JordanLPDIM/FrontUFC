@@ -1,0 +1,5 @@
+<button mat-raised-button (click)="goBack()"> Retour            </button>
+
+<app-fighter-card [selectedfighter]= "fighter$ | async" (received)="showReceivedValue($event)">
+
+</app-fighter-card>

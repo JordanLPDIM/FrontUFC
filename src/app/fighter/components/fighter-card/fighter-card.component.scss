@@ -1,0 +1,22 @@
+.selected-fighter {
+    margin-top:30px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    width:50%;
+    margin:auto;
+  }
+
+  .name{
+    font-size:26px;
+    font-weight:600;
+    margin-bottom:20px;
+  }
+  
+ .selected-fighter > div {
+    margin-bottom:20px;
+ }
+    
+  .selected-fighter p {
+    margin: 0;
+  }

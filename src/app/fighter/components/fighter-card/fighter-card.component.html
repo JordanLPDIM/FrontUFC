@@ -1,0 +1,13 @@
+
+<div *ngIf="selectedfighter" class="selected-fighter">
+    <div class="name">
+        {{selectedfighter.firstName}} {{selectedfighter.lastName}}
+    </div>
+    <div>
+        <p>Catégorie: {{selectedfighter.category.name}}</p>
+    </div>
+    <div>
+        <p>Date de naissance: {{selectedfighter.dateOfBirth}}</p>
+    </div>
+</div> 
+  
